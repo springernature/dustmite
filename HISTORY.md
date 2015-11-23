@@ -1,6 +1,10 @@
 
 # History
 
+## 2.0.1 (2015-11-23)
+
+ * Run tests in Node 5.x
+
 ## 2.0.0 (2015-11-17)
 
  * Added the ability to assign a rule to multiple types of node
