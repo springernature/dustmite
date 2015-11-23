@@ -316,6 +316,6 @@ Copyright &copy; 2015, Nature Publishing Group
 [info-build]: https://travis-ci.org/nature/dustmite
 [shield-coverage]: https://img.shields.io/coveralls/nature/dustmite.svg
 [shield-license]: https://img.shields.io/badge/license-LGPL%203.0-blue.svg
-[shield-node]: https://img.shields.io/badge/node.js%20support-0.10–4-brightgreen.svg
+[shield-node]: https://img.shields.io/badge/node.js%20support-0.10–5-brightgreen.svg
 [shield-npm]: https://img.shields.io/npm/v/dustmite.svg
 [shield-build]: https://img.shields.io/travis/nature/dustmite/master.svg
