@@ -1,6 +1,11 @@
 
 # History
 
+## 2.0.2 (2015-12-01)
+
+ * Update glob to 6.0.x
+ * Update yargs to 3.30.x
+
 ## 2.0.1 (2015-11-23)
 
  * Run tests in Node 5.x
