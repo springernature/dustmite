@@ -3,8 +3,8 @@
 
 var assert = require('proclaim');
 var mockery = require('mockery');
-var path = require('path');
 var sinon = require('sinon');
+var path = require('path');
 
 var modulePath = path.join(__dirname, '..', '..', 'lib', 'validator');
 

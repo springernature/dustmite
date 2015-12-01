@@ -2,8 +2,8 @@
 'use strict';
 
 var assert = require('proclaim');
-var path = require('path');
 var sinon = require('sinon');
+var path = require('path');
 
 var Parser = require(path.join(__dirname, '..', '..', 'lib', 'parser'));
 var Node = require(path.join(__dirname, '..', '..', 'lib', 'node'));

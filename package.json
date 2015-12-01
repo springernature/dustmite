@@ -23,8 +23,8 @@
 	},
 	"dependencies": {
 		"dustjs-linkedin": "~2.7",
-		"glob": "~5.0",
-		"yargs": "~3.29"
+		"glob": "~6.0",
+		"yargs": "~3.30"
 	},
 	"devDependencies": {
 		"istanbul": "~0.4",

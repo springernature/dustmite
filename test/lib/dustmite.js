@@ -2,8 +2,8 @@
 'use strict';
 
 var assert = require('proclaim');
-var sinon = require('sinon');
 var mockery = require('mockery');
+var sinon = require('sinon');
 var path = require('path');
 
 var dustmite = require(path.join(__dirname, '..', '..', 'lib', 'dustmite'));
