@@ -24,7 +24,7 @@
 	"dependencies": {
 		"dustjs-linkedin": "~2.7",
 		"glob": "~6.0",
-		"yargs": "~3.30"
+		"yargs": "~3.31"
 	},
 	"devDependencies": {
 		"istanbul": "~0.4",
