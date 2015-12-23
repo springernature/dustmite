@@ -1,6 +1,10 @@
 
 # History
 
+## 2.0.3 (2015-12-23)
+
+ * Update yargs to 3.31.x
+
 ## 2.0.2 (2015-12-01)
 
  * Update glob to 6.0.x
