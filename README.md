@@ -6,7 +6,6 @@ Dustmite is a linter for [DustJS](https://github.com/linkedin/dustjs). It checks
 [![Node.js version support][shield-node]][info-node]
 [![NPM version][shield-npm]][info-npm]
 [![Build status][shield-build]][info-build]
-[![Code coverage][shield-coverage]][info-coverage]
 
 ![Susuwatari](https://38.media.tumblr.com/tumblr_mbt6bsseX31rn213no1_500.gif)
 
