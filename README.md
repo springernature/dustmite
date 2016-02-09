@@ -277,7 +277,7 @@ console.log(validator.report());
 }
 ```
 
-If you would like to replace the standard Dustmite reporter you can do so by passing a `Reporter` constructor to the `dustmite` function. Please see [lib/reporter.js](https://github.com/nature/dustmite/blob/master/lib/reporter.js) for the methods that a reporter needs to implement.
+If you would like to replace the standard Dustmite reporter you can do so by passing a `Reporter` constructor to the `dustmite` function. Please see [lib/reporter.js](https://github.com/springernature/dustmite/blob/master/lib/reporter.js) for the methods that a reporter needs to implement.
 
 ## Contributing
 
@@ -306,15 +306,15 @@ make ci
 ## License
 
 Dustmite is licensed under the [Lesser General Public License (LGPL-3.0)][info-license].  
-Copyright &copy; 2015, Nature Publishing Group
+Copyright &copy; 2015, Springer Nature
 
-[info-coverage]: https://coveralls.io/github/nature/dustmite
+[info-coverage]: https://coveralls.io/github/springernature/dustmite
 [info-license]: LICENSE
 [info-node]: package.json
 [info-npm]: https://www.npmjs.com/package/dustmite
-[info-build]: https://travis-ci.org/nature/dustmite
-[shield-coverage]: https://img.shields.io/coveralls/nature/dustmite.svg
+[info-build]: https://travis-ci.org/springernature/dustmite
+[shield-coverage]: https://img.shields.io/coveralls/springernature/dustmite.svg
 [shield-license]: https://img.shields.io/badge/license-LGPL%203.0-blue.svg
 [shield-node]: https://img.shields.io/badge/node.js%20support-0.10–5-brightgreen.svg
 [shield-npm]: https://img.shields.io/npm/v/dustmite.svg
-[shield-build]: https://img.shields.io/travis/nature/dustmite/master.svg
+[shield-build]: https://img.shields.io/travis/springernature/dustmite/master.svg

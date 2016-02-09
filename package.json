@@ -6,17 +6,17 @@
 	"description": "Linting for dustjs templates",
 	"keywords": ["dust", "templates", "lint", "test"],
 
-	"author": "Nature Publishing Group",
+	"author": "Springer Nature",
 	"contributors": [
 		"Andrew Walker (http://www.moddular.org/)"
 	],
 
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/nature/dustmite.git"
+		"url": "https://github.com/springernature/dustmite.git"
 	},
-	"homepage": "https://github.com/nature/dustmite",
-	"bugs": "https://github.com/nature/dustmite/issues",
+	"homepage": "https://github.com/springernature/dustmite",
+	"bugs": "https://github.com/springernature/dustmite/issues",
 
 	"engines": {
 		"node": ">=0.10"
