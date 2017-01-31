@@ -16,6 +16,8 @@ matrix:
     # Run tests in Node.js 5.x
     - node_js: '5'
 
+    # Run tests in Node.js 5.x
+    - node_js: '6'
 
 # Restrict builds on branches
 branches:
