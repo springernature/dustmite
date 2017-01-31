@@ -16,6 +16,8 @@ matrix:
     # Run tests in Node.js 5.x
     - node_js: '5'
 
+    # Run tests in Node.js 6.x
+    - node_js: '6'
 
 # Restrict builds on branches
 branches:
@@ -23,15 +25,7 @@ branches:
     - master
     - /^\d+\.\d+\.\d+$/
 
-
-# Before install
-before_install:
-  # Install coveralls
-  #- npm install coveralls
-
-
 # Build script
 script:
   - 'if [ $LINT ]; then make lint; fi'
   - 'if [ ! $LINT ]; then make lcov-levels; fi'
-  #- 'if [ ! $LINT ]; then cat ./coverage/lcov.info | ./node_modules/.bin/coveralls; fi'
