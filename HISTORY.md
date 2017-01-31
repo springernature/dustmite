@@ -1,6 +1,13 @@
 
 # History
 
+## 2.0.4 (2017-01-31)
+
+ * Add Node LTS 6 to the travis test matrix
+ * Update mocha and jscs to ^3
+ * Change Nature references to Springer Nature
+ * Disable coveralls
+
 ## 2.0.3 (2015-12-23)
 
  * Update yargs to 3.31.x
