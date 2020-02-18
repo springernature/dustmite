@@ -151,6 +151,23 @@ describe('lib/parser', function() {
 			assert.isTrue(stack.pop.calledOnce);
 		});
 
+		it('Should notify clients when it encounters a `+` node and step into the children', function() {
+			var notify = sinon.stub(parser, 'notify');
+			var step = sinon.spy(parser, 'step');
+			var child = ['test'];
+			var node = ['+', '', '', '', child];
+
+			parser.step(node, stack);
+
+			assert.isTrue(notify.calledOnce);
+			assert.isTrue(notify.calledWith(node, stack));
+			assert.isTrue(step.calledTwice);
+			assert.isTrue(step.calledWith(node, stack));
+			assert.isTrue(step.calledWith(child, stack));
+			assert.isTrue(stack.push.notCalled);
+			assert.isTrue(stack.pop.notCalled);
+		});
+
 		it('Should notify clients when it encounters a `<` node and step into the children', function() {
 			var notify = sinon.stub(parser, 'notify');
 			var step = sinon.spy(parser, 'step');

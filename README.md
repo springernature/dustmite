@@ -168,6 +168,7 @@ The objects in this array must have a `type` property to define the type of node
 * `@`
 * `<`
 * `%`
+* `+`
 * `partial`
 * `reference`
 * `special`
